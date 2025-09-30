@@ -260,11 +260,17 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateAnimator()
     {
-        float animSpeed = currentHorizVel.magnitude;
-        float prevSpeed = anim.GetFloat("Speed");
-        float dampTime = animSpeed > prevSpeed ? accelDampTime : decelDampTime;
+        Vector3 ccVel = controller.velocity;
+        float actualHorizSpeed = new Vector2(ccVel.x, ccVel.z).magnitude;
 
-        anim.SetFloat("Speed", animSpeed, dampTime, Time.deltaTime);
+        // 아주 작은 값은 0으로 죽여서 '가만히 서기' 상태로
+        if (actualHorizSpeed < 0.05f) actualHorizSpeed = 0f;
+
+
+        float prevSpeed = anim.GetFloat("Speed");
+        float dampTime = actualHorizSpeed > prevSpeed ? accelDampTime : decelDampTime;
+
+        anim.SetFloat("Speed", actualHorizSpeed, dampTime, Time.deltaTime);
         anim.SetBool("IsGrounded", controller.isGrounded);
         anim.SetFloat("VelocityY", velocity.y);
     }
