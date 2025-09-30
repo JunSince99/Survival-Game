@@ -623,7 +623,25 @@ PrefabInstance:
       value: Low Poly Environment
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5305481871707120296, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: -1076749245920556815, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: 3755249778426375306, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: 4372524030322785706, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: 2955327622451507980, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: 6503677067865878483, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: 3828886601701299115, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: 6388100683636445914, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: -8803411210527730910, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: -5726937400448081089, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: 1753320968649033667, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: 6768856071203577353, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: -5453917207643065117, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: -6600871893267360213, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: 4467875006049526465, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: -6364691127956721484, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: -1443970602103940052, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
+    - {fileID: 4638382913007113299, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -1888500491653310408, guid: 593d4f7dc5f444843b2b02f101b56b8c, type: 3}
