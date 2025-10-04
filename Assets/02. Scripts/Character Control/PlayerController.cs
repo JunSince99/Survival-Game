@@ -100,7 +100,16 @@ public class PlayerController : MonoBehaviour
     private void StartAttack()
     {
         anim.SetTrigger("Attack");
+        anim.SetInteger("AttackCount", 0);
         isAttacking = true;
+
+        Vector3 camFwd = Camera.main.transform.forward;
+        camFwd.y = 0f; // 수평 방향만
+        if (camFwd.sqrMagnitude > 0.001f)
+        {
+            transform.rotation = Quaternion.LookRotation(camFwd);
+        }
+        
         lockedAttackYaw = transform.eulerAngles.y;
     }
 

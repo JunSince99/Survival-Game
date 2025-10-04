@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676992cf7ceaa784a8f8ffdfe6bd0c6f, type: 3}
+  m_Name: DefaultMovementSettings
+  m_EditorClassIdentifier: Assembly-CSharp::MovementSettings
+  walkSpeed: 5
+  runSpeed: 10
+  rotationLerp: 10
+  jumpHeight: 1
+  gravity: -9.8
+  groundedStick: -2
+  accelDampTime: 0
+  decelDampTime: 0
+  accelRate: 40
+  decelRate: 40
+  airAccelRate: 3
+  airDrag: 0
+  maxAirSpeed: 12
